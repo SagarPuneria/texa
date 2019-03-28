@@ -34,6 +34,8 @@ Install the dependencies, devDependencies and start the server.
 
 ``$ git clone https://github.com/SagarPuneria/texa.git``
 
+``$ cd $GOPATH/src/texa``
+
 ``$ govendor sync``
 
 ``$ cd $GOPATH/src/texa/``
