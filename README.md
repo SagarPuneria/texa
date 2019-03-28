@@ -28,6 +28,8 @@ Install the dependencies, devDependencies and start the server.
 
 ``$ export GOBIN=$GOPATH/bin``
 
+``$ go get -u github.com/kardianos/govendor``
+
 ``$ export PATH=$GOBIN:$PATH``
 
 ``$ git clone https://github.com/SagarPuneria/texa.git``
