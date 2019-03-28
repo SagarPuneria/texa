@@ -1,0 +1,91 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "JrRvpR2IQU+KNEXZLorIuKxGkJI=",
+			"path": "github.com/TexaProject/texajson",
+			"revision": "967de23537030a4d3efbc251d543172c50296ede",
+			"revisionTime": "2018-04-30T07:50:57Z"
+		},
+		{
+			"checksumSHA1": "GmMTCAIhEBy1J7OP7KXI+kEv4CY=",
+			"path": "github.com/TexaProject/texalib",
+			"revision": "c488f5b05455e39edfedc12d4a3fc46976480c07",
+			"revisionTime": "2017-05-04T07:56:04Z"
+		},
+		{
+			"checksumSHA1": "7bVy4aLLz9/WOxK8jYRlcl4Ob68=",
+			"path": "github.com/go-redis/redis",
+			"revision": "a679e614427ac801aafbf444481210440c8a2694",
+			"revisionTime": "2019-03-25T11:21:10Z"
+		},
+		{
+			"checksumSHA1": "ReLxjhgDIVSi0YEUfAaHOVkY/wg=",
+			"path": "github.com/go-redis/redis/internal",
+			"revision": "a679e614427ac801aafbf444481210440c8a2694",
+			"revisionTime": "2019-03-25T11:21:10Z"
+		},
+		{
+			"checksumSHA1": "BuzQsdMJMUXm8Zfwtuoz4QUdnZE=",
+			"path": "github.com/go-redis/redis/internal/consistenthash",
+			"revision": "a679e614427ac801aafbf444481210440c8a2694",
+			"revisionTime": "2019-03-25T11:21:10Z"
+		},
+		{
+			"checksumSHA1": "W47jjF/WaLGsAkYbZUoVcoFCpGc=",
+			"path": "github.com/go-redis/redis/internal/hashtag",
+			"revision": "a679e614427ac801aafbf444481210440c8a2694",
+			"revisionTime": "2019-03-25T11:21:10Z"
+		},
+		{
+			"checksumSHA1": "O+HZX7UNZB6zHuhTY+1Fo3D4z0E=",
+			"path": "github.com/go-redis/redis/internal/pool",
+			"revision": "a679e614427ac801aafbf444481210440c8a2694",
+			"revisionTime": "2019-03-25T11:21:10Z"
+		},
+		{
+			"checksumSHA1": "LhB8Z3QPg7Cpz9fn4UxRlcv5kM0=",
+			"path": "github.com/go-redis/redis/internal/proto",
+			"revision": "a679e614427ac801aafbf444481210440c8a2694",
+			"revisionTime": "2019-03-25T11:21:10Z"
+		},
+		{
+			"checksumSHA1": "bp+tC2j9x5lIBFL+/lsS7TTH24E=",
+			"path": "github.com/go-redis/redis/internal/util",
+			"revision": "a679e614427ac801aafbf444481210440c8a2694",
+			"revisionTime": "2019-03-25T11:21:10Z"
+		},
+		{
+			"checksumSHA1": "QS15F7XdFG6tSDF3LfAZJTEgbK8=",
+			"path": "gopkg.in/mgo.v2",
+			"revision": "9856a29383ce1c59f308dd1cf0363a79b5bef6b5",
+			"revisionTime": "2018-07-05T11:36:04Z"
+		},
+		{
+			"checksumSHA1": "Np/IH5aN4KNgY+8MBEYV2ewgExI=",
+			"path": "gopkg.in/mgo.v2/bson",
+			"revision": "9856a29383ce1c59f308dd1cf0363a79b5bef6b5",
+			"revisionTime": "2018-07-05T11:36:04Z"
+		},
+		{
+			"checksumSHA1": "9tMleZvl/yjpkj7oO3pOfZc+MJw=",
+			"path": "gopkg.in/mgo.v2/internal/json",
+			"revision": "9856a29383ce1c59f308dd1cf0363a79b5bef6b5",
+			"revisionTime": "2018-07-05T11:36:04Z"
+		},
+		{
+			"checksumSHA1": "WnXjUmdgl3mTwwqYBxbO974iCe8=",
+			"path": "gopkg.in/mgo.v2/internal/sasl",
+			"revision": "9856a29383ce1c59f308dd1cf0363a79b5bef6b5",
+			"revisionTime": "2018-07-05T11:36:04Z"
+		},
+		{
+			"checksumSHA1": "CrciG7woshiINwZxPsxisgDGL3Y=",
+			"path": "gopkg.in/mgo.v2/internal/scram",
+			"revision": "9856a29383ce1c59f308dd1cf0363a79b5bef6b5",
+			"revisionTime": "2018-07-05T11:36:04Z"
+		}
+	],
+	"rootPath": "texa"
+}

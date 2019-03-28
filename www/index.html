@@ -67,6 +67,7 @@
     var scoreArray = [];
     var jsonString = "";
     var slabSequence = [];
+    var chatHistory = [];
 
     // elizaReset() resets all forms and associated values
     function elizaReset() {
@@ -90,6 +91,8 @@
       } else if (userinput != '') {
         var usr = 'YOU:   ' + userinput;
         var rpl = 'ELIZA: ' + eliza.transform(userinput);
+        chatHistory.push(usr);
+        chatHistory.push(rpl);
         elizaLines.push(usr);
         elizaLines.push(rpl);
         // display nicely
@@ -156,6 +159,7 @@
       alert("ScoreArray: " + scoreArray);
       alert("SlabSequence: " + slabSequence);
 
+      $('#chatHistory').val(chatHistory);
       $('#slabSequence').val(slabSequence);
       $('#scoreArray').val(scoreArray);
       $('#IntName').val(IntName);
@@ -204,6 +208,7 @@
     <input type="hidden" id="IntName" name="IntName">
     <input type="hidden" id="SlabName" name="SlabName">
     <input type="hidden" id="slabSequence" name="slabSequence">
+    <input type="hidden" id="chatHistory" name="chatHistory">
     <br />><center><input type="submit" value="Submit Score"></center>
   </FORM>
 </BODY>

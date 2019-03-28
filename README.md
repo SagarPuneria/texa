@@ -22,17 +22,23 @@ Install the dependencies, devDependencies and start the server.
 
 ``$ go version``
 
+``$ export GOPATH=texa_workspace_path`` set GOPATH environment variable
+
 ``$ cd $GOPATH/src/``
 
-``$ git clone https://github.com/TexaProject/texa.git``
+``$ export GOBIN=$GOPATH/bin``
 
-``$ go get -u https://github.com/TexaProject/texajson.git``
+``$ export PATH=$GOBIN:$PATH``
 
-``$ go get -u https://github.com/TexaProject/texalib.git``
+``$ git clone https://github.com/SagarPuneria/texa.git``
+
+``$ govendor sync``
 
 ``$ cd $GOPATH/src/texa/``
 
-``$ go run main.go``
+``$ go build main.go``
+
+``$ ./main "mongodbUserName" "mongodbPassword" "mongodbIP" "mongodbPort"`` if user name and password is not configured in mongodb environment then give empty string.
 
 
 ### TODO (Future Work)
